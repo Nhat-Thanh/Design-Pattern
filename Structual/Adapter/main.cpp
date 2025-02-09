@@ -5,7 +5,7 @@
 #include <iostream>
 
 void PlayMP4(const MP4& FileInMp4) {
-    std::cout << FileInMp4.GetContent() << '.' << FileInMp4.GetExtension() << '\n';
+    std::cout << FileInMp4.GetContent() << '\n';
 }
 
 int main() {

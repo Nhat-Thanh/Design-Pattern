@@ -1,9 +1,10 @@
 #include "American.h"
 #include "Chinese.h"
 #include "Japanese.h"
+#include <iostream>
 
 int main() {
-    Amerian american;
+    American american;
     Chinese chinese;
     Japanese japanese;
 
