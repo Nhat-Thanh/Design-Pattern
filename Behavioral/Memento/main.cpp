@@ -1,4 +1,5 @@
-#include "MementoHistoy.h"
+#include "MementoHistory.h"
+#include <iostream>
 
 void run(TextEditor& text_editor, MementoHistory& history, const std::string& text) {
     history.Backup();
